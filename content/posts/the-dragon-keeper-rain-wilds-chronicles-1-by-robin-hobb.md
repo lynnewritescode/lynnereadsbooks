@@ -1,6 +1,6 @@
 ---
 title: "The Dragon Keeper (Rain Wilds Chronicles #1) by Robin Hobb"
-subtitle: Book Review
+subtitle: "The Dragon Keeper (Rain Wilds Chronicles #1) by Robin Hobb"
 category:
   - Book Reviews
 author: Lynne Finnigan
