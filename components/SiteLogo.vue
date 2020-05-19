@@ -1,6 +1,17 @@
 <template>
   <div class="logo-wrapper">
-    <div
+    <img src="/booklogo.svg" class="site-logo" />
+
+    <h2 class="title">Lynne Reads Books</h2>
+    <!-- <div>
+      Icons made by
+      <a href="https://www.flaticon.com/authors/linector" title="Linector"
+        >Linector</a
+      >
+      from
+      <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+    </div> -->
+    <!-- <div
       :class="{
         'logo-inner': true,
         blink: blinking
@@ -16,7 +27,7 @@
         :key="`${x}-r`"
         :src="`/logo-frames/logo-f${frames - x}.svg`"
       />
-    </div>
+    </div> -->
   </div>
 </template>
 <script>
@@ -38,28 +49,51 @@ export default {
 }
 </script>
 <style lang="scss">
+.site-logo {
+  max-height: 36px !important;
+
+  @media (min-width: 1023px) {
+    max-height: 55px !important;
+  }
+}
+
 @keyframes logoBlink {
   100% {
     transform: translateY(-360px);
   }
 }
+
 .logo-wrapper {
-  position: relative;
-  height: 50px;
+  display: flex;
+  align-items: center;
   overflow: hidden;
-  width: 200px;
-  .logo-inner {
-    position: absolute;
-    height: 500px;
-    img {
-      display: block;
-      height: 40px;
-      margin: 5px;
-      max-height: initial;
-    }
-    &.blink {
-      animation: logoBlink 0.2s steps(8, end) alternate;
+  position: relative;
+
+  .title {
+    font-size: 1.2rem;
+    margin-left: 10px;
+    color: #ff6363;
+
+    @media (min-width: 1023px) {
+      margin-left: 15px;
     }
   }
+  // width: 200px;
+  // height: 50px;
+  // .logo-inner {
+  //   position: absolute;
+  //   height: 500px;
+
+  //   img {
+  //     display: block;
+  //     height: 40px;
+  //     margin: 5px;
+  //     max-height: initial;
+  //   }
+
+  //   &.blink {
+  //     animation: logoBlink 0.2s steps(8, end) alternate;
+  //   }
+  // }
 }
 </style>

@@ -9,15 +9,12 @@
         null
     "
   >
-    <span
-      v-if="author && $siteConfig.posts.displayAuthor"
-      class="author-wrapper"
-    >
-      <strong>Author:</strong> {{ author }} |
-    </span>
-    <span v-if="date" class="date-wrapper">
+    <p v-if="author && $siteConfig.posts.displayAuthor" class="author-wrapper">
+      <strong>Author:</strong> {{ author }}
+    </p>
+    <p v-if="date" class="date-wrapper">
       <strong>Published on:</strong> {{ datePretty }}
-    </span>
+    </p>
   </generic-card>
 </template>
 

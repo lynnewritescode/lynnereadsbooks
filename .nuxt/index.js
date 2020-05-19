@@ -12,6 +12,7 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
+import nuxt_plugin_googlegtag_e7a57d7a from 'nuxt_plugin_googlegtag_e7a57d7a' // Source: ./google-gtag.js (mode: 'client')
 import nuxt_plugin_templatesplugin275669a2_6aa2740a from 'nuxt_plugin_templatesplugin275669a2_6aa2740a' // Source: ./templates.plugin.275669a2.js (mode: 'all')
 import nuxt_plugin_axios_5cd01194 from 'nuxt_plugin_axios_5cd01194' // Source: ./axios.js (mode: 'all')
 import nuxt_plugin_Globals_513f3cda from 'nuxt_plugin_Globals_513f3cda' // Source: ../plugins/Globals (mode: 'all')
@@ -65,7 +66,7 @@ async function createApp (ssrContext) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"nuxtlify","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Blog template for Nuxt.js\u002FNetlify"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"script":[{"src":"https:\u002F\u002Fidentity.netlify.com\u002Fv1\u002Fnetlify-identity-widget.js","defer":true,"id":"netlify-identity-widget-script"}],"style":[]},
+    head: {"title":"nuxtlify","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Blog template for Nuxt.js\u002FNetlify"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Fbooklogo.svg"}],"script":[{"src":"https:\u002F\u002Fidentity.netlify.com\u002Fv1\u002Fnetlify-identity-widget.js","defer":true,"id":"netlify-identity-widget-script"}],"style":[]},
 
     store,
     router,
@@ -179,6 +180,10 @@ async function createApp (ssrContext) {
   }
 
   // Plugin execution
+
+  if (process.client && typeof nuxt_plugin_googlegtag_e7a57d7a === 'function') {
+    await nuxt_plugin_googlegtag_e7a57d7a(app.context, inject)
+  }
 
   if (typeof nuxt_plugin_templatesplugin275669a2_6aa2740a === 'function') {
     await nuxt_plugin_templatesplugin275669a2_6aa2740a(app.context, inject)

@@ -9,18 +9,17 @@
     <div class="hero-body">
       <div class="container">
         <h1 class="title animated fadeInUp">
-          {{ title }}
-        </h1>
-        <h2 class="subtitle animated fadeInUp slower">
+          <!-- {{ title }} -->
           {{ subtitle }}
-        </h2>
-        <br />
+        </h1>
+        <!-- <h2 class="subtitle animated fadeInUp slower"></h2> -->
+        <!-- <br />
         <div
           v-if="$slots.default"
           class="under-subtitle animated fadeInDown slower"
         >
           <slot />
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
@@ -60,6 +59,10 @@ export default {
   text-align: center;
   overflow: hidden;
   position: relative;
+
+  @media (min-width: 1023px) {
+    margin-top: 72px;
+  }
 }
 
 .title {
@@ -89,6 +92,13 @@ export default {
 .opti-image-loaded {
   opacity: 0.12;
   animation: blurIn 4.5s ease;
+}
+
+@media (min-width: 769px) {
+  .hero.is-medium .hero-body {
+    padding-bottom: 7rem;
+    padding-top: 7rem;
+  }
 }
 </style>
 <style lang="scss">

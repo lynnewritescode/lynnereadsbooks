@@ -9,37 +9,27 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Awake',
-  tagline: 'A Nuxt.js Theme for Netlify CMS',
-  featureImage: '/uploads/home-hero.jpg',
+  siteName: 'Lynne Reads Books',
+  tagline: 'A book review blog.',
+  featureImage: '/uploads/books.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
-    id: process.env.GOOGLE_ANALYTICS_ID
+    id: 'UA-134985484-2'
   },
   mainMenu: [
     {
+      name: 'Home',
+      link: '/'
+    },
+    {
       name: 'About',
       link: '/about'
-    },
-    {
-      name: 'Contact',
-      link: '/contact'
-    },
-    {
-      name: 'Categories',
-      link: '/categories'
-    },
-    {
-      name: 'Github Repo',
-      link: 'https://github.com/danielkellyio/awake-template',
-      target: '_blank'
-    },
-    {
-      name: 'Awake+ Premium',
-      link: 'https://awake-premium-lp.netlify.com/',
-      target: '_blank'
     }
+    // {
+    //   name: 'Categories',
+    //   link: '/categories'
+    // }
   ],
   hero: {
     theme: 'dark' // options: mist, light, dark
@@ -73,8 +63,7 @@ export default {
     // or any other url you want to post the form data to
     mailchimp: {
       on: false,
-      formAction:
-        'https://danielkelly.us3.list-manage.com/subscribe/post?u=d3c2e762b66a2353d0bc29bf3&amp;id=2abeaa06e0'
+      formAction: ''
     },
     custom: {
       on: false,
@@ -100,7 +89,7 @@ export default {
       display: true
     },
     perRow: 3,
-    perPage: 6
+    perPage: 12
   }
 }
 

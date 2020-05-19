@@ -60,20 +60,27 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-.navbar-item img {
-  max-height: 2rem;
-}
 .site-search-wrapper {
   transform: translateX(5px);
   @media (max-width: 1023px) {
     display: none;
   }
 }
+
 .navbar-burger {
   height: auto;
 }
 
 .navbar-menu a {
+  color: #363636;
   display: block;
+  transition: color 0.2s ease-in-out;
+
+  &.nuxt-link-active,
+  &:hover,
+  &:active,
+  &:focus {
+    color: $primary;
+  }
 }
 </style>

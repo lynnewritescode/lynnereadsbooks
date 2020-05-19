@@ -8,17 +8,23 @@
   >
     <div class="field has-addons is-fullwidth">
       <p class="control has-icons-left">
-        <input v-model="email" class="input" type="email" name="EMAIL" placeholder="Email" />
+        <input
+          v-model="email"
+          class="input"
+          type="email"
+          name="EMAIL"
+          placeholder="Email"
+        />
         <span class="icon is-small is-left">
           <font-awesome-icon icon="envelope" />
           <i class="fas fa-envelope"></i>
         </span>
       </p>
+
       <div class="control">
-        <button
-          type="submit"
-          class="button is-primary"
-        >{{ $siteConfig.newsletter.btnText || 'Subscribe' }}</button>
+        <button type="submit" class="button is-primary">
+          {{ $siteConfig.newsletter.btnText || 'Subscribe' }}
+        </button>
       </div>
     </div>
   </form>

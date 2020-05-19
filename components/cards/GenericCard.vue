@@ -77,6 +77,19 @@ export default {
 }
 </script>
 <style scoped lang="scss">
+.card {
+  .title {
+    transition: color 0.2s ease-in-out;
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    .title {
+      color: $primary;
+    }
+  }
+}
 .subtitle {
   opacity: 0.5;
   font-size: 0.8rem;
