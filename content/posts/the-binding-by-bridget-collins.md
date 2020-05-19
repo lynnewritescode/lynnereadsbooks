@@ -1,6 +1,6 @@
 ---
 title: The Binding by Bridget Collins
-subtitle: Book Review
+subtitle: The Binding by Bridget Collins
 category:
   - Book Reviews
 author: Lynne Finnigan
