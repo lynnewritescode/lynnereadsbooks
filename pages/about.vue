@@ -1,95 +1,37 @@
 <template>
   <div id="about-page" class="page-wrapper about-page content-page">
-    <site-hero
-      title="About Us"
-      subtitle="Example About Page"
-      image="/uploads/about-hero.jpg"
-    ></site-hero>
+    <site-hero title="About me" subtitle="About me" image="/uploads/reading.jpg"></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <div class="content">
-          <h3>Fake Heading</h3>
+          <h2>Who am I?</h2>
           <p>
-            <strong>
-              Edit this page in<code>/pages/about.vue</code>to fit your needs.
-            </strong>
+            Hello! My name is Lynne and I'm a front-end web developer from
+            Glasgow, Scotland.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit!
+            I've always been an avid reader, and have only recently started
+            writing reviews for the books I read. This is partially so that I
+            can reflect on the books more, and also to improve my writing. I
+            figured if I'm writing them anyway, why not create a blog? And here
+            we are.
           </p>
 
-          <h3>Another Fake Heading</h3>
+          <h3>Social media</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit!
-          </p>
-          <quote-card />
-          <h3>Still More Fake Content</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit! Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit.
-            <strong>Alias aut facere harum ipsam</strong> quibusdam quidem
-            quisquam saepe? Alias architecto blanditiis consequatur consequuntur
-            dicta ipsa iste modi provident, quod, similique veritatis.
+            You can find me on
+            <a href="http://instagram.com/lynnereadsbooks">instagram</a>
+            and
+            <a href="http://twitter.com/lynnereadsbooks">twitter</a>. Also checkout my
+            <a href="https://www.goodreads.com/lynnewritescode">goodreads</a> account, and feel free to add me there!
           </p>
         </div>
-
-        <div class="tile is-ancestor">
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">
-                Cool Stuff We Do
-              </p>
-              <p class="subtitle">
-                Sooo Cool
-              </p>
-              <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
-              </figure>
-            </article>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">
-                Other Cool Things
-              </p>
-              <p class="subtitle">
-                Just as cool
-              </p>
-              <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
-              </figure>
-            </article>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">
-                All the cool
-              </p>
-              <p class="subtitle">
-                that is all
-              </p>
-              <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
-              </figure>
-            </article>
-          </div>
-        </div>
+        <h3 class="subtitle is-4">Latest Posts</h3>
+        <posts-grid :per-row="1" :number="3" class="posts-grid" />
       </template>
 
       <template v-slot:sidebar>
-        <h3 class="subtitle is-4">
-          Latest Posts
-        </h3>
-        <posts-grid :per-row="1" :number="2" />
+        <img src="/avatar2020.jpg" class="profile-img" />
       </template>
     </main-section>
   </div>
@@ -105,3 +47,10 @@ export default {
   components: { QuoteCard }
 }
 </script>
+<style lang="scss">
+.posts-grid {
+  .columns.is-multiline {
+    flex-wrap: nowrap !important;
+  }
+}
+</style>
