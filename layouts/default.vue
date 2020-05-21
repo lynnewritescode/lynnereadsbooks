@@ -83,6 +83,13 @@ export default {
   },
   mounted() {
     this.$cms.lifeCycleHooks.mounted()
+
+    if (process.browser) {
+      this.$gtag('config', this.$siteConfig.googleAnalytics.id, {
+        page_title: this.$metaInfo.title,
+        page_path: this.$route.fullPath
+      })
+    }
   },
   beforeCreate() {
     this.$cms.lifeCycleHooks.beforeCreate()

@@ -15,7 +15,8 @@ export default {
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
-    id: 'UA-134985484-2'
+    id: 'UA-134985484-2',
+    disableAutoPageTrack: true
   },
   mainMenu: [
     {
