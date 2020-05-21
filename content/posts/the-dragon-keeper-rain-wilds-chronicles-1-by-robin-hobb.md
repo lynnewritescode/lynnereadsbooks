@@ -5,7 +5,7 @@ category:
   - Book Reviews
 author: Lynne Finnigan
 date: 2020-04-26T12:30:35.478Z
-featureImage: /uploads/books.jpg
+featureImage: /uploads/dragonkeeper.jpg
 ---
 I wasn't sure what to expect with this book after reading some mixed reviews. I am a big fan of The Farseer trilogy, and the Tawny Man trilogy by Robin Hobb, and although I enjoyed The Liveship Traders trilogy, it took me a long time to get into it. Quite a bit of time actually, the end of book two was where I really started to enjoy it.
 
