@@ -5,7 +5,7 @@ category:
   - Book Reviews
 author: Lynne Finnigan
 date: 2020-04-04T12:23:03.525Z
-featureImage: /uploads/fc2e4a03-21b2-4026-ab60-e9909a262473.jpeg
+featureImage: /uploads/img_3561-2.jpg
 ---
 *In the world of The Binding, books are a taboo subject. People visit book binders to have their unwanted memories bound into a book and hidden away forever. Once their memories are bound into a book, they have no recollection of them anymore. The story follows Emmett Farmer, a boy who can no longer work on the farm he grew up on due to a recent illness, and is sent to live with a binder as her apprentice. One day he meets a customer of hers and senses an odd connection with him. Little does he know, that chance meeting would change his whole life.*
 
