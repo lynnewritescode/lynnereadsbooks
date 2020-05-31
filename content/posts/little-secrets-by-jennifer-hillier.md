@@ -7,9 +7,9 @@ author: Lynne Finnigan
 date: 2020-05-31T13:37:50.255Z
 featureImage: /uploads/img_3560.jpg
 ---
-***Four hundred and eighty seconds. That’s how long it took for someone to steal Marin Machado's four-year-old son.***
+### ***Four hundred and eighty seconds. That’s how long it took for someone to steal Marin Machado's four-year-old son.***
 
-*Marin had the perfect life. Married to her college sweetheart, she owns a chain of upscale hair salons, and Derek runs his own company. They're admired in their community and are a loving family. Up until the day Sebastian is taken.*
+### *Marin had the perfect life. Married to her college sweetheart, she owns a chain of upscale hair salons, and Derek runs his own company. They're admired in their community and are a loving family. Up until the day Sebastian is taken.*
 
 This novel starts with any parents' worst nightmare. In a busy market, Marin Machado let's go of her 4 year old son's hand for just a second and he was taken. The story unfolds from there, and the author does a good job of describing the shock, panic, anger, grief, and a million other emotions that you must be feeling in that moment and the following weeks and months.
 
