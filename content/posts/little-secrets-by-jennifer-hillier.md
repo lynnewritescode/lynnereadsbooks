@@ -11,6 +11,8 @@ featureImage: /uploads/img_3560.jpg
 
 *Marin had the perfect life. Married to her college sweetheart, she owns a chain of upscale hair salons, and Derek runs his own company. They're admired in their community and are a loving family. Up until the day Sebastian is taken.*
 
+- - -
+
 This novel starts with any parents' worst nightmare. In a busy market, Marin Machado let's go of her 4 year old son's hand for just a second and he was taken. The story unfolds from there, and the author does a good job of describing the shock, panic, anger, grief, and a million other emotions that you must be feeling in that moment and the following weeks and months.
 
 After the kidnapping, we see that it has affected Marin and Derek's relationship in a big way. Unfortunately, the story then focuses on that for a large part of the book and although ultimately it's still about what happened to her son, that seems to take a backseat for a while.
