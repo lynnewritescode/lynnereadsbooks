@@ -9,6 +9,8 @@ featureImage: /uploads/img_3561-2.jpg
 ---
 *In the world of The Binding, books are a taboo subject. People visit book binders to have their unwanted memories bound into a book and hidden away forever. Once their memories are bound into a book, they have no recollection of them anymore. The story follows Emmett Farmer, a boy who can no longer work on the farm he grew up on due to a recent illness, and is sent to live with a binder as her apprentice. One day he meets a customer of hers and senses an odd connection with him. Little does he know, that chance meeting would change his whole life.*
 
+- - -
+
 I first picked up this book in Waterstones in Glasgow. I had heard of the title, but had no idea what the book was about, or even what genre really. While wandering through the shop, it caught my eye. The beautiful front cover, with the purple edged pages. It drew me in, and after a quick read of the summary I thought, why not? I'll pick it up and see what it's like.
 
 It took a while for me to get the premise and understand why people thought of books as a taboo subject. It's set in a world that is reminiscent of 19th-century England, and the only kind of fantasy element to the story is the concept of binding one's memories into a book. I enjoyed the setting and it wasn't too descriptive, which I liked. It left plenty of room for the imagination.
