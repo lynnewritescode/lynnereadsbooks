@@ -1,5 +1,13 @@
 /* purgecss start ignore */
-.subtle-box-shadow{
+.subtle-box-shadow {
   box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+hr {
+  background-color: whitesmoke;
+  border: none;
+  display: block;
+  height: 2px;
+  margin: 1.5rem 0;
 }
 /* purgecss end ignore */
